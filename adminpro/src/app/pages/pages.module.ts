@@ -14,6 +14,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { BrowserModule } from '@angular/platform-browser';
 import { GraficoDonacomponentComponent } from '../components/grafico-donacomponent/grafico-donacomponent.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -24,6 +26,8 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
         IncrementadorComponent,
         GraficoDonacomponentComponent,
         AccoutSettingsComponent,
+        PromesasComponent,
+        RxjsComponent,
     ],
     exports: [
         DashboardComponent,
