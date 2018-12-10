@@ -13,6 +13,7 @@ import { ChartsModule } from 'ng2-charts';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { GraficoDonacomponentComponent } from '../components/grafico-donacomponent/grafico-donacomponent.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 @NgModule({
     declarations: [
@@ -22,6 +23,7 @@ import { GraficoDonacomponentComponent } from '../components/grafico-donacompone
         PagesComponent,
         IncrementadorComponent,
         GraficoDonacomponentComponent,
+        AccoutSettingsComponent,
     ],
     exports: [
         DashboardComponent,
